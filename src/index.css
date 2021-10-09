@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+#root {
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 200px 800px;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+.bp4-tabs, .bp4-tab-list {
+  width: 100%;
+}
+
+.bp4-card {
+  margin-bottom: 10px;
+}
+
+.bp4-card .bp4-button {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.bp4-card h2 {
+  margin: 0;
+}
+
+.bp4-tag {
+  margin-top: 10px;
+  margin-right: 5px;
+}
